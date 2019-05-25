@@ -1,0 +1,33 @@
+{
+    "name": "vohinc/laravel-firestore",
+    "type": "library",
+    "description": "Firestore wrapper for laravel",
+    "require": {
+        "php": "^7.1.3",
+        "grpc/grpc": "^v1.1.0",
+        "google/cloud-firestore": "^1.5",
+        "google/protobuf": "^v3.3.0",
+        "illuminate/support": "5.8.*"
+    },
+    "authors": [
+        {
+            "name": "Casper Lai",
+            "email": "casper.lai@voh-design.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Voh\\LaravelFirestore\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Voh\\LaravelFirestore\\FirestoreServiceProvider"
+            ],
+            "aliases": {
+                "Firestore": "Voh\\LaravelFirestore\\Facades\\Firestore"
+            }
+        }
+    }
+}
