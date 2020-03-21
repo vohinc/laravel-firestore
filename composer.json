@@ -2,6 +2,7 @@
     "name": "vohinc/laravel-firestore",
     "type": "library",
     "description": "Firestore wrapper for laravel",
+    "license": "MIT",
     "require": {
         "php": "^7.1",
         "grpc/grpc": "^v1.1.0",
