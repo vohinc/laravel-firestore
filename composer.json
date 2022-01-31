@@ -4,7 +4,7 @@
     "description": "Firestore wrapper for laravel",
     "license": "MIT",
     "require": {
-        "php": "^7.1",
+        "php": "^7.1|^8.0",
         "grpc/grpc": "^v1.1.0",
         "google/cloud-firestore": "^1.5",
         "google/protobuf": "^v3.3.0",
